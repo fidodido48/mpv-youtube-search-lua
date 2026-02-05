@@ -57,7 +57,7 @@ list.num_entries = 4
 -- Configuration: choose wrap widths appropriate for your font/OSD size.
 -- *** WARNING: USE EITHER CHARS-/PIXELS-WRAPPING, BUT NOT BOTH! ***
 -- characters per line for titles (word-wrap)
-local TITLE_WRAP_CHARS = 70
+local TITLE_WRAP_CHARS = 65
 -- characters per line for channel text   
 local CHANNEL_WRAP_CHARS = 60
 
@@ -66,8 +66,10 @@ local CHANNEL_WRAP_CHARS = 60
 -- local CHANNEL_WRAP_PIXELS = 900
 ```
 
-__USAGE/TESTING__
+__USAGE__
 -----------------
+
+![mpv-youtube-search-lua-screen1](images/mpv-youtube-search-lua-screen1.gif)
 
 - IVE CHANGED DEFAULT ORIGINAL SCRIPT'S KEYBINDINGS TO:
 ```
