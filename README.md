@@ -1,4 +1,4 @@
-_FUZZY_DIR_SUB_SEARCH.LUA_ _MPV_ _SCRIPT_
+_YOUTUBE_SEARCH.LUA_ _MPV_ _SCRIPT_
 
 __INTRODUCTION__
 ----------------
@@ -31,7 +31,7 @@ $HOME/.config/mpv/script-modules:
 - user-input-module.lua
 
 
-3. FIND AND EDIT THOSE ENV VARS WITH YOUR PREFFERED SETTINGS (DON'T CHANGE THEIR PLACEMENT, JUST EDIT THEM!): 
+3. Find and edit those env vars with your preffered settings (DON'T CHANGE THEIR PLACEMENT, JUST EDIT THEM!): 
 
 [~/.config/mpv/scripts/youtube-search.lua]
 
@@ -71,12 +71,16 @@ __USAGE__
 
 ![mpv-youtube-search-lua-screen1](images/mpv-youtube-search-lua-screen1.gif)
 
-- IVE CHANGED DEFAULT ORIGINAL SCRIPT'S KEYBINDINGS TO:
-```
-Users can open the search page with F5, and same again to open a search. Alternatively, F6 can be used at any time to open a search. Esc can be used to close the page.
-Enter will open the selected item, Shift+Enter will append the item to the playlist.
-```
-Cause old ones weren't working for me, but you can set as you wish by changing those:
+IVE CHANGED DEFAULT ORIGINAL SCRIPT'S KEYBINDINGS TO:
+- open the search page with F5
+- press F5 again to open a search. 
+(Alternatively, F6 can be used at any time to open a search.)
+- Esc can be used to close the page.
+- Enter will open the selected item
+- Shift+Enter will append the item to the playlist.
+- Ctrl+Enter will play selection in new window
+
+Just cause old ones weren't working for me, but you can set as you wish by changing those:
 
 [~/.config/mpv/scripts/youtube-search.lua]
 ```
