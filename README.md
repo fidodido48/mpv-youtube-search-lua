@@ -72,15 +72,15 @@ __USAGE__
 ![mpv-youtube-search-lua-screen1](images/mpv-youtube-search-lua-screen1.gif)
 
 IVE CHANGED DEFAULT ORIGINAL SCRIPT'S KEYBINDINGS TO:
-- open the search page with F5
-- press F5 again to open a search. 
-(Alternatively, F6 can be used at any time to open a search.)
-- Esc can be used to close the page.
-- Enter will open the selected item
-- Shift+Enter will append the item to the playlist.
+- F5 opens the search page
+- F5 pressed again opens a new search
+- alternatively, F6 opens a new search at any time
+- Esc closes the page.
+- Enter will play selection
+- Shift+Enter will append selection to the playlist
 - Ctrl+Enter will play selection in new window
 
-Just cause old ones weren't working for me, but you can set as you wish by changing those:
+Those can be modified as you wish by changing their respective lines:
 
 [~/.config/mpv/scripts/youtube-search.lua]
 ```
