@@ -22,18 +22,18 @@ __INSTALLATION__
 
 2. Make sure to put the script in the proper mpv's scripts in their proper respective dirs:
 
-$HOME/.config/mpv/scripts:
+_$HOME/.config/mpv/scripts_:
 - user-input.lua
 - youtube-search.lua
 
-$HOME/.config/mpv/script-modules:
+_$HOME/.config/mpv/script-modules_:
 - scroll-list.lua
 - user-input-module.lua
 
 
 3. Find and edit those env vars with your preffered settings (DON'T CHANGE THEIR PLACEMENT, JUST EDIT THEM!): 
 
-[~/.config/mpv/scripts/youtube-search.lua]
+_~/.config/mpv/scripts/youtube-search.lua_
 
 ```
 -- REMEMBER TO INSERT YOUR YT API KEY HERE!
@@ -72,17 +72,17 @@ __USAGE__
 ![mpv-youtube-search-lua-screen1](images/mpv-youtube-search-lua-screen1.gif)
 
 IVE CHANGED DEFAULT ORIGINAL SCRIPT'S KEYBINDINGS TO:
-- F5 opens the search page
-- F5 pressed again opens a new search
-- alternatively, F6 opens a new search at any time
-- Esc closes the page.
-- Enter will play selection
-- Shift+Enter will append selection to the playlist
-- Ctrl+Enter will play selection in new window
+- ```F5``` opens the search page
+- ```F5``` pressed again opens a new search
+- alternatively, ```F6``` opens a new search at any time
+- ```Esc``` closes the page.
+- ```Enter``` will play selection
+- ```Shift+Enter``` will append selection to the playlist
+- ```Ctrl+Enter``` will play selection in new window
 
 Those can be modified as you wish by changing their respective lines:
 
-[~/.config/mpv/scripts/youtube-search.lua]
+_~/.config/mpv/scripts/youtube-search.lua_
 ```
 -- 'ENTER' PLAYS SELECTED ITEM INSTANTLY, RESETTING THE PLAYLIST
 table.insert(list.keybinds, {"ENTER", "play", function() play_result("replace") end, {}})
