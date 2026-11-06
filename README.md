@@ -11,7 +11,7 @@ __REQUIREMENTS__
 - mpv
 - yt-dlp
 - REMEMBER to adjust config settings to your liking
-(insert your YT API KEY/set preferred font sizes/yt search results number/word wrap max characters number/etc.)
+(insert your YT API KEY/set preferred font size/yt search results number/word wrap max characters number/etc.)
 
 __INSTALLATION__
 ----------------
@@ -20,7 +20,7 @@ __INSTALLATION__
 
 ```git clone https://github.com/fidodido48/mpv-youtube-search-lua.git $HOME/.config/mpv/scripts```
 
-2. Make sure to put the script in the proper mpv's scripts in their proper respective dirs! (some needs to go to ~~/script-modules, where '~~' is your mpv's config dir):
+2. Make sure to put the script in the proper mpv's scripts in their proper respective dirs:
 
 $HOME/.config/mpv/scripts:
 - user-input.lua
